@@ -1,0 +1,49 @@
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #00445c9c;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+/* Estilos para el botón "ELIMINAR" */
+.eliminar-button {
+background-color: #ff0000;
+color: #fff;
+padding: 5px 10px;
+border: none;
+text-decoration: none;
+border-radius: 5px;
+margin-right: 10px;
+}
+
+.eliminar-button:hover {
+background-color: #cc0000;
+}
+
+/* Estilos para el botón "EDITAR" */
+.editar-button {
+background-color: #007bff;
+color: #fff;
+padding: 5px 10px;
+border: none;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.editar-button:hover {
+background-color: #0056b3;
+}
